@@ -21,7 +21,7 @@ import bootstrap from "./tech/bootstrap.svg";
 import c_lang from "./tech/c_lang.svg";
 
 import nielit from "./company/nielit.png";
-import cohsem from "./company/cohsem.jpg";
+import hse from "./company/hse.jpg";
 import unipune from "./company/unipune.png";
 import udemy from "./company/udemy.png";
 
@@ -51,7 +51,7 @@ export {
   bootstrap,
   c_lang,
   nielit,
-  cohsem,
+  hse,
   unipune,
   udemy,
   dalle,

@@ -17,7 +17,7 @@ import {
   nielit,
   unipune,
   udemy,
-  cohsem,
+  hse,
   dalle,
   covid,
   songarin,
@@ -125,7 +125,7 @@ const experiences = [
   {
     title: "Higher Secondary Education",
     company_name: "ACHSS, Ukhrul • COHSEM",
-    icon: cohsem,
+    icon: hse,
     iconBg: "#E6DEDD",
     date: "July 2017 - June 2019",
     points: [
