@@ -7,10 +7,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-// template_xxcx1qr - template key
-// service_k03fzhx - service key
-// RtKSU7aOj4-2hFvUp - Public key
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -37,10 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_k03fzhx',
-        'template_xxcx1qr',
-        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        process.env.REACT_APP_EMAILJS_SERVICEID,
+        process.env.REACT_APP_EMAILJS_TEMPLATEID,
         {
           from_name: form.name,
           to_name: "Songarin Pheinao",
@@ -48,8 +42,7 @@ const Contact = () => {
           to_email: "pheinaos@gmail.com",
           message: form.message,
         },
-        'RtKSU7aOj4-2hFvUp'
-        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        process.env.REACT_APP_EMAILJS_ACCESSKEY
       )
       .then(
         () => {
@@ -73,7 +66,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-1 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
