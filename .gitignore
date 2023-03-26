@@ -30,7 +30,3 @@ CNAME
 .netlify
 netlify.toml
 
-# Firebase
-.firebase
-firebase
-.firebaserc
