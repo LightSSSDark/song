@@ -33,5 +33,4 @@ netlify.toml
 # Firebase
 .firebase
 firebase
-firebase.json
 .firebaserc
