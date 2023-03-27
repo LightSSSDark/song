@@ -46,7 +46,7 @@ const About = () => {
       >
         I'm a{" "}
         <span className="text-[#d5c0fa]">&#2022;software developer&#2022;</span>{" "}
-        (to be) with experience in JavaScript, C/C++, Python, Golang,
+        (to be), with experience in JavaScript, C/C++, Python, Golang,
         MongoDB and JS frameworks like React & Node.js. I am constantly seeking
         opportunities to learn new skills and technologies and thrive in
         collaborative environments that encourage knowledge sharing. Besides
