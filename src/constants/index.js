@@ -45,7 +45,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "React.js Developer",
     icon: frontend,
   },
   {
@@ -53,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Graphic Designer",
+    title: "Graphics Designer (Novice)",
     icon: creator,
   },
 ];
@@ -203,7 +203,8 @@ const projects = [
       },
     ],
     image: covid,
-    source_code_link: "https://github.com/LightSSSDark/COVID-outbreak-simulation",
+    source_code_link:
+      "https://github.com/LightSSSDark/COVID-outbreak-simulation",
   },
   {
     name: "My Portfolio Website",
